@@ -12,6 +12,7 @@
 
 	<modules>
 		<module>xxl-job-core</module>
+		<module>xxl-job-spring-boot-starter-admin</module>
 		<module>xxl-job-admin</module>
 		<module>xxl-job-executor-samples</module>
     </modules>
@@ -45,6 +46,11 @@
 			<dependency>
 				<groupId>com.xuxueli</groupId>
 				<artifactId>xxl-job-core</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.xuxueli</groupId>
+				<artifactId>xxl-job-spring-boot-starter-admin</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
